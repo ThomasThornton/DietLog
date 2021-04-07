@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <Button
+        android:id="@+id/button_item_decrement"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:text="@string/button_decrement"
+        android:background="@android:color/transparent"
+        android:onClick="button_item_decrement_click" />
+
+    <TextView
+        android:id="@+id/textview_item"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button_item_increment"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:text="@string/button_increment"
+        android:background="@android:color/transparent"
+        android:onClick="button_item_increment_click" />
+
+    <TextView
+        android:id="@+id/textview_amount"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textview_cal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textview_pro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+</LinearLayout>
